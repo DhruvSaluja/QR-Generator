@@ -32,7 +32,7 @@ qrdownload.addEventListener('click',()=>{
         qrdownload.setAttribute('href',imgAttr);
     }
     else{
-        qrdownload.setAttribute('href',`https://tse1.mm.bing.net/th?id=OIP.yR4T01QmrChqjTdzC5RCQwHaFp&pid=Api&P=0&h=220`)
+        qrdownload.setAttribute('href',`${document.querySelector('canvas').toDataURL()}`)
     }
 })
 
